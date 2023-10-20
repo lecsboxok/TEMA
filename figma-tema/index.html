@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lente Viva</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c93f4c944c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <a href="#">
+            <h1>LENTE<span class="verde">VIVA</span></h1>
+        </a>
+        <div class="navegar">
+            <nav class="nav">
+                <div class="navegacao">
+                    <a href="#" class="item">SERVIÇOS</a>
+                    <a href="#" class="item">BLOG</a>
+                    <a href="" class="item">CONTATO</a>
+                </div>
+            </nav>
+            <button id="trocar-tema"><i class="fa-solid fa-toggle-off"></i></button>
+        </div>
+    </header>
+    <main id="main">
+        <section class="section roxo">
+            <div class="container">
+                <div class="homem">
+                    <div class="fundo-verde"></div>
+                    <img src="/img/HOMEM.png" alt="Homem" id="homem">
+                </div>
+                <div class="texto-principal">
+                    <h2>TRANSFORMANDO MOMENTOS EM MEMÓRIAS ETERNAS.</h2>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="servicos">
+            <div class="conteiner">
+                <h3>NOSSOS<span>ERVIÇOS</span></h3>
+                <div class="tudo">
+                    <div class="parte">
+                        <img src="/img/01.png" alt="">
+                        <p>ENSAIOS<span>FOTOGRAFICOS</span></p>
+                        <img src="/img/02.png" alt="">
+                    </div>
+                    <div class="parte">
+                        <img src="/img/03.png" alt="">
+                        <p>FOTOGRAFIA<span>AMBIENTAL</span></p>
+                        <img src="/img/04.png" alt="">
+                    </div>
+                    <div class="parte">
+                        <img src="/img/05.png" alt="">
+                        <p>ENSAIO<span>PROFISSIONAL</span></p>
+                        <img src="/img/06.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="blog">
+            <div class="conteiner">
+                <h3>NOSSO<span>BLOG</span></h3>
+                <div class="imgBlog">
+                    <img src="/img/camera.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="section" id="contato">
+            <div class="conteiner">
+                <h3>CONTATE<span>-NOS</span></h3>
+                <div class="geral">
+                    <form id="form">
+                        <div class="lacuna">
+                            <label for="nome">NOME:</label>
+                            <input type="text" id="nome" name="nome">
+                        </div>
+                        <div class="lacuna">
+                            <label for="email">EMAIL:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="lacuna">
+                            <label for="telefone">TELEFONE:</label>
+                            <input type="tel" name="telefone" id="telefone">
+                        </div>
+                        <div class="lacuna">
+                            <label for="mensagem">MENSAGEM:</label>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <button>ENVIAR</button>
+                    </form>
+                    <img src="/img/BOLSA.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="conteiner">
+            <div class="navegacao">
+                <a href="#" class="item">SERVIÇOS</a>
+                <a href="#" class="item">BLOG</a>
+                <a href="" class="item">CONTATO</a>
+            </div>
+            <a href="#">
+                <h1>LENTE<span class="verde">VIVA</span></h1>
+            </a>
+        </div>
+    </footer>
+    <script>
+        const trocarTema = document.getElementById("trocar-tema")
+        const icone = document.querySelector("#trocar-tema i.fa-solid")
+        const body = document.body
+
+        trocarTema.addEventListener("click", () => {
+            body.classList.toggle("modo-escuro")
+            icone.className = 'fa-solid fa-toggle-on'
+        })
+        
+    </script>
+</body>
+
+</html>

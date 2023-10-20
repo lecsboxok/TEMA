@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'SofiaSans';
+    src: url(/font/otf/SofiaSans-Italic.otf);
+}
+
+body {
+    font-family: 'SofiaSans', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #910DA7;
+    padding: 30px 0;
+}
+
+.navegar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    margin: 0 30px;
+    color: white;
+    font: 400 25px 'SofiaSans', sans-serif;
+}
+
+.navegar button {
+    margin-left: 40px;
+    color: white;
+    background: transparent;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    font: 400 45px 'SofiaSans', sans-serif;
+}
+
+.verde {
+    color: #70FF00;
+}
+
+.container {
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner {
+    margin: 0 150px;
+}
+
+.roxo {
+    background-color: #910DA7;
+    padding: 90px 20px 130px 20px;
+}
+
+.fundo-verde {
+    width: 367.305px;
+    height: 418.991px;
+    border-radius: 55px;
+    background: #52BA00;
+}
+
+#homem {
+    position: absolute;
+    top: 250px;
+    left: 220px;
+    border-radius: 55px;
+}
+
+h2 {
+    font: 500 60px 'SofiaSans', sans-serif;
+    color: white;
+    margin: 80px 100px;
+    text-align: center;
+}
+
+.tudo {
+    display: flex;
+}
+
+h3 {
+    font: 500 50px 'SofiaSans', sans-serif;
+}
+
+p {
+    font: 400 35px 'SofiaSans', sans-serif;
+    margin: 20px 0;
+}
+
+.parte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.parte span {
+    font: 600 35px 'SofiaSans', sans-serif;
+}
+
+#servicos h3 {
+    color: #EA4710;
+    margin-bottom: 100px;
+}
+
+h3 span {
+    font: 600 50px 'SofiaSans', sans-serif;
+}
+
+#servicos {
+    margin: 100px 0;
+}
+
+#blog {
+    background-color: #910DA7;
+    padding: 100px 0;
+}
+
+.imgBlog {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#blog h3 {
+    color: #70FF00;
+}
+
+label {
+    font: 400 30px 'SofiaSans', sans-serif;
+}
+
+input, textarea {
+    background-color: #D9D9D9;
+    width: 455px;
+    border-radius: 10px;
+    padding: 15px;
+    font: 400 18px 'SofiaSans', sans-serif;
+}
+
+input {
+    margin-bottom: 40px;
+    height: 70px;
+}
+
+textarea {
+    height: 255px;
+    resize: none;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.geral {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.lacuna {
+    display: flex;
+    flex-direction: column;
+}
+
+#form button {
+    padding: 15px;
+    color: white;
+    background-color: #920DA7;
+    font: 400 30px 'SofiaSans', sans-serif;
+    width: 255px;
+    margin-top: 120px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#contato {
+    margin-top: 70px;
+}
+
+#contato h3 {
+    color: #EA4710;
+}
+
+#footer .conteiner {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: #910DA7;
+}
+
+.modo-escuro {
+    background-color: #4E0759;
+    color: white;
+}
