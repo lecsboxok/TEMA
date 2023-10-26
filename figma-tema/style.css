@@ -11,7 +11,7 @@ a {
 
 @font-face {
     font-family: 'SofiaSans';
-    src: url(/font/otf/SofiaSans-Italic.otf);
+    src: url(font/otf/SofiaSans-Italic.otf);
 }
 
 body {
@@ -211,6 +211,6 @@ footer {
 }
 
 .modo-escuro {
-    background-color: #4E0759;
+    background-color: #121212;
     color: white;
 }
